@@ -1,1 +1,1 @@
-console.log( 'Remote-Marketing' );
+import( './bootstrap' );
