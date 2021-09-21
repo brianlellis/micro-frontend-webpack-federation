@@ -23,7 +23,8 @@ const devConfig = {
       },
       exposes: {
         './ContainerEcomm': './src/bootstrap'
-      }
+      },
+      shared: [ 'react' , 'react-dom' ]
     })
   ]
 };
