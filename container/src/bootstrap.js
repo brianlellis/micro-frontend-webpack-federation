@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 
 // I'm still using mount on the container in case I need to nest the system container into
-// another container. The body is changed to container-development to not conflict other
+// another container. The body is changed to container-development to not conflict with other
 // isolated remotes being called in
 const ENV_ISOLATE = 'development' === process.env.NODE_ENV && 'container-development' === document.body.id;
 
