@@ -5,8 +5,8 @@
 4. Container should be able to decide specific version of remote/child apps to deploy
 
 ## Known Issues
-~~Auth dir is working~~
-~~Dashboard dir is working
+~~Auth dir is working~~  
+~~Dashboard dir is working~~
 
 ## PKG Manage Via PNPM
 
