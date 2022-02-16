@@ -6,7 +6,7 @@ const ModuleFederationPlugin  = require( 'webpack/lib/container/ModuleFederation
 const devConfig = {
   mode: 'development',
   devServer: {
-    port: 8080,
+    port: 3000,
     historyApiFallback:  {
       index: 'index.html'
     }
@@ -19,7 +19,7 @@ const devConfig = {
       name:     'container',
       filename: 'remoteEntry.js',
       remotes: {
-        marketing: 'marketing@http://localhost:8081/remoteEntry.js'
+        marketing: 'marketing@http://localhost:3001/remoteEntry.js'
       },
       exposes: {
         './ContainerEcomm': './src/bootstrap'

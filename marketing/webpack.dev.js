@@ -6,7 +6,7 @@ const ModuleFederationPlugin  = require( 'webpack/lib/container/ModuleFederation
 const devConfig = {
   mode: 'development',
   devServer: {
-    port: 8081,
+    port: 3001,
     historyApiFallback:  {
       index: 'index.html'
     }
